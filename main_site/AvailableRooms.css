@@ -1,0 +1,608 @@
+.available-rooms-child,
+.available-rooms-item {
+  position: absolute;
+  top: -4px;
+  width: 430px;
+  height: 96px;
+}
+.available-rooms-child {
+  left: -8px;
+  background-color: var(--color-darkslateblue);
+}
+.available-rooms-item {
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3434b9;
+}
+.available-rooms1,
+.ju-avail1 {
+  position: absolute;
+  font-family: var(--font-inter);
+  display: inline-block;
+  /* -webkit-text-stroke: 0.6px #fff; */
+}
+.ju-avail1 {
+  top: 33px;
+  left: 122px;
+  font-size: 19.66px;
+  font-weight: 300;
+  /* color: var(--color-white); */
+  width: 145px;
+  height: 35.64px;
+}
+.available-rooms1 {
+  top: 120px;
+  left: 100px;
+  font-weight: 500;
+  color: #000;
+  width: 247px;
+  height: 36px;
+  font-size: 30px;
+
+}
+.icon1 {
+  position: absolute;
+  height: 47.92%;
+  width: 64.58%;
+  top: 26.04%;
+  right: 17.71%;
+  bottom: 26.04%;
+  left: 17.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.outlineinterfacemenu1 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 21px;
+  left: 7px;
+  width: 52px;
+  height: 45px;
+}
+.logo-p-21,
+.outlinestatusnotification-icon1 {
+  position: absolute;
+  top: 23px;
+  left: 355px;
+  width: 47px;
+  height: 43px;
+}
+.logo-p-21 {
+  top: 2px;
+  left: 50px;
+  width: 71.84px;
+  height: 77.1px;
+  object-fit: cover;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 72.8px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-100);
+  width: 71.68px;
+  height: 72.8px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.lt-1,
+.time-inner1,
+.time3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-1,
+.time3 {
+  top: 190px;
+  left: 37px;
+}
+.lt-1 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 22.75%;
+  left: 12.33%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-2,
+.time4 {
+  position: absolute;
+  top: 190px;
+  left: 123px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-2 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 22.75%;
+  left: 32.33%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-3,
+.time5 {
+  position: absolute;
+  top: 190px;
+  left: 212px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-3 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 22.75%;
+  left: 53.02%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-4,
+.time6 {
+  position: absolute;
+  top: 189px;
+  left: 301px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-4 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 22.64%;
+  left: 73.72%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-5,
+.time7 {
+  position: absolute;
+  top: 277px;
+  left: 37px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-5 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 32.08%;
+  left: 12.33%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-6,
+.time8 {
+  position: absolute;
+  top: 277px;
+  left: 123px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-6 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 32.08%;
+  left: 32.33%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-7,
+.time9 {
+  position: absolute;
+  top: 277px;
+  left: 214px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-7 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 32.08%;
+  left: 53.49%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-8,
+.time10 {
+  position: absolute;
+  top: 277px;
+  left: 301px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-8 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 32.08%;
+  left: 73.72%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-9,
+.time11 {
+  position: absolute;
+  top: 370px;
+  left: 37px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-9 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 42.06%;
+  left: 12.33%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-10,
+.time12 {
+  position: absolute;
+  top: 370px;
+  left: 123px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-10 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 42.06%;
+  left: 30.47%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-11,
+.time13 {
+  position: absolute;
+  top: 369px;
+  left: 214px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-11 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 41.95%;
+  left: 52.33%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-12,
+.time14 {
+  position: absolute;
+  top: 368px;
+  left: 301px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-12 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 41.95%;
+  left: 72.56%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-13,
+.time15 {
+  position: absolute;
+  top: 470px;
+  left: 37px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-13 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 52.79%;
+  left: 10.93%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-14,
+.time16 {
+  position: absolute;
+  top: 469px;
+  left: 123px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-14 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 52.68%;
+  left: 31.16%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-15,
+.time17 {
+  position: absolute;
+  top: 468px;
+  left: 212px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-15 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 52.58%;
+  left: 50.93%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-16,
+.time18 {
+  position: absolute;
+  top: 467px;
+  left: 301px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-16 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 52.58%;
+  left: 72.56%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-17,
+.time19 {
+  position: absolute;
+  top: 570px;
+  left: 37px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-17 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 63.52%;
+  left: 10.93%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-18,
+.time20 {
+  position: absolute;
+  top: 569px;
+  left: 123px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-18 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 63.52%;
+  left: 30.47%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-19,
+.time21 {
+  position: absolute;
+  top: 567px;
+  left: 212px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-19 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 63.3%;
+  left: 51.86%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-20,
+.time22 {
+  position: absolute;
+  top: 566px;
+  left: 301px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-20 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 63.2%;
+  left: 72.56%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-21,
+.time23 {
+  position: absolute;
+  top: 668px;
+  left: 37px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-21 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 74.03%;
+  left: 10.7%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-22,
+.time24 {
+  position: absolute;
+  top: 668px;
+  left: 123px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-22 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 74.03%;
+  left: 29.77%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-23,
+.time25 {
+  position: absolute;
+  top: 667px;
+  left: 214px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-23 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 73.93%;
+  left: 52.09%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-24,
+.time26 {
+  position: absolute;
+  top: 667px;
+  left: 301px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-24 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 73.93%;
+  left: 71.63%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-25,
+.time27 {
+  position: absolute;
+  top: 766px;
+  left: 33px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-25 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 84.55%;
+  left: 9.77%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-251,
+.time28 {
+  position: absolute;
+  top: 766px;
+  left: 119px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-251 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 84.55%;
+  left: 28.84%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-26,
+.time29 {
+  position: absolute;
+  top: 765px;
+  left: 210px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-26 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 84.44%;
+  left: 51.16%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-27,
+.time30 {
+  position: absolute;
+  top: 765px;
+  left: 297px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-27 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 84.44%;
+  left: 70.7%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.available-rooms {
+  position: relative;
+  background-color: var(--color-goldenrod);
+  width: 100%;
+  height: 932px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-mulish);
+}
+.container {
+  width: 35%; /* Set the container width to 50% f the screen width */
+  margin: 0 0 0 0;
+  padding-top: 190px; /* Add padding to the top of the container */
+  overflow: hidden; /* Prevent box overflow */
+  font-size: 25px;
+  
+}
+.box {
+  border-radius: 25%;
+  width: 72.8px;
+  height: 71.68px;
+  background-color: #f0f0f0; /* Set the background color */
+  border: 1px solid #ccc; /* Add a border */
+  float: left; /* Float boxes left to make them display side by side */
+  margin: 10px 1%; /* Add margin to space them out and prevent wrapping */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box p {
+  margin: 0; /* Remove default margin for the numbering */
+  line-height: 100px; /* Vertically center the numbering */
+}

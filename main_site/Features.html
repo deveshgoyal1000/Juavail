@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Features.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="features">
+      <div class="features-child"></div>
+      <div class="features-item"></div>
+      <div class="ju-avail2">JU Avail</div>
+      <button class="outlineinterfacemenu2" disabled>
+        <img class="icon2" alt="" src="./public/icon2.svg" />
+      </button>
+      <img
+        class="outlinestatusnotification-icon2"
+        alt=""
+        src="./public/outlinestatusnotification1.svg"
+      />
+
+      <img class="logo-p-22" alt="" src="./public/logo-p-2@2x.png" />
+
+      <div class="button-transitions5" id="buttonTransitions5Container">
+        <div class="shadow"></div>
+        <div class="button">
+          <div class="smash-it">Classroom Availability</div>
+        </div>
+      </div>
+      <div class="button-transitions4">
+        <div class="shadow1"></div>
+        <div class="button1">
+          <div class="smash-it">Teacher Contact Detail</div>
+        </div>
+      </div>
+      <div class="button-transitions3">
+        <div class="shadow1"></div>
+        <div class="button1">
+          <div class="smash-it">Lost/Found</div>
+        </div>
+      </div>
+      <div class="button-transitions2">
+        <div class="shadow1"></div>
+        <div class="button1">
+          <div class="smash-it">pass/fail</div>
+        </div>
+      </div>
+      <div class="button-transitions">
+        <div class="shadow1"></div>
+        <div class="button1">
+          <div class="smash-it">pyq</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var buttonTransitions5Container = document.getElementById(
+        "buttonTransitions5Container"
+      );
+      if (buttonTransitions5Container) {
+        buttonTransitions5Container.addEventListener("click", function (e) {
+          window.location.href = "./AvailableRooms.html";
+        });
+      }
+      </script>
+  </body>
+</html>

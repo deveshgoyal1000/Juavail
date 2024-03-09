@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./AvailableRooms.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="available-rooms" id="availableRoomsContainer">
+      <div class="available-rooms-child"></div>
+      <div class="available-rooms-item"></div>
+      <div class="ju-avail1">JU Avail</div>
+      <div class="available-rooms1">Available Rooms</div>
+      <button class="outlineinterfacemenu1" disabled>
+        <img class="icon1" alt="" src="./public/icon1.svg" />
+      </button>
+      <img
+        class="outlinestatusnotification-icon1"
+        alt=""
+        src="./public/outlinestatusnotification.svg"
+      />
+
+      <img class="logo-p-21" alt="" src="./public/logo-p-2@2x.png" />
+      <div class="container">
+        <day></day>
+        <lec></lec>
+        <time></time>
+        <main></main>
+        <script src="dyn.js">
+        </script>
+      </div>
+        
+    <script>
+      var availableRoomsContainer = document.getElementById(
+        "availableRoomsContainer"
+      );
+      if (availableRoomsContainer) {
+        availableRoomsContainer.addEventListener("click", function (e) {
+          window.location.href = "./SecondPage.html";
+        });
+      }
+      </script>
+  </body>
+</html>

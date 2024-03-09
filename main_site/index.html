@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="main-screen" id="mainScreenContainer">
+      <button class="logo-p-1"></button>
+      <b class="welcome-to-ju">Welcome To Ju Avail</b>
+    </div>
+
+    <script>
+      var mainScreenContainer = document.getElementById("mainScreenContainer");
+      if (mainScreenContainer) {
+        mainScreenContainer.addEventListener("click", function (e) {
+          window.location.href = "./MainScreen2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

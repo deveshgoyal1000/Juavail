@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./SignInPage.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sign-in-page">
+      <button class="logo-p-23"></button>
+      <div class="inputs">
+        <div class="input">
+          <div class="placeholder">Email</div>
+        </div>
+      </div>
+      <b class="ju-avail3"> Ju Avail</b>
+      <div class="button-transitions1" id="buttonTransitionsContainer">
+        <div class="shadow5"></div>
+        <div class="button5">
+          <div class="smash-it5">Sign in</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var buttonTransitionsContainer = document.getElementById(
+        "buttonTransitionsContainer"
+      );
+      if (buttonTransitionsContainer) {
+        buttonTransitionsContainer.addEventListener("click", function (e) {
+          window.location.href = "./Features.html";
+        });
+      }
+      </script>
+  </body>
+</html>

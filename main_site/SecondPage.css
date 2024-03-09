@@ -1,0 +1,146 @@
+.second-page-child,
+.second-page-item {
+  position: absolute;
+  top: -4px;
+  width: 430px;
+  height: 96px;
+}
+.second-page-child {
+  left: -8px;
+  background-color: var(--color-darkslateblue);
+}
+.second-page-item {
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3434b9;
+}
+.icon,
+.ju-avail {
+  position: absolute;
+}
+.ju-avail {
+  top: 33px;
+  left: 122px;
+  font-size: 19.66px;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  display: inline-block;
+  width: 145px;
+  height: 35.64px;
+  -webkit-text-stroke: 0.6px #fff;
+}
+.icon {
+  height: 47.92%;
+  width: 64.58%;
+  top: 26.04%;
+  right: 17.71%;
+  bottom: 26.04%;
+  left: 17.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.outlineinterfacemenu {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 21px;
+  left: 7px;
+  width: 52px;
+  height: 45px;
+}
+.logo-p-2,
+.outlinestatusnotification-icon {
+  position: absolute;
+  top: 23px;
+  left: 355px;
+  width: 47px;
+  height: 43px;
+}
+.logo-p-2 {
+  top: 2px;
+  left: 50px;
+  width: 71.84px;
+  height: 77.1px;
+  object-fit: cover;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 72.8px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  width: 71.68px;
+  height: 72.8px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.lt-28,
+.time,
+.time-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-28,
+.time {
+  top: 182px;
+  left: 82px;
+}
+.lt-28 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 21.89%;
+  left: 21.16%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-29,
+.time1 {
+  position: absolute;
+  top: 182px;
+  left: 168px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-29 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 21.89%;
+  left: 40.23%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.lt-30,
+.time2 {
+  position: absolute;
+  top: 181px;
+  left: 259px;
+  width: 72.8px;
+  height: 71.68px;
+}
+.lt-30 {
+  height: 2.9%;
+  width: 14.42%;
+  top: 21.78%;
+  left: 62.56%;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.second-page {
+  position: relative;
+  background-color: var(--color-goldenrod);
+  width: 100%;
+  height: 932px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-mulish);
+}
